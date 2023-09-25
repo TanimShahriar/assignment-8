@@ -15,7 +15,7 @@ const Banner = () => {
 
               </div>
               <input type="search" id="default-search" className="w-[500px] block mx-auto p-4  text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search here...." required />
-              <button type="submit" className="text-white absolute right-[135px] top-[1px] bg-[#FF444A] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-7 py-4 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+              <button type="submit" className="text-white absolute right-[135px] top-[1px] bg-[#FF444A] hover:bg-blue-800 font-medium rounded-r-lg text-sm px-7 py-4 dark:bg-blue-600">Search</button>
             </div>
           </form>
 

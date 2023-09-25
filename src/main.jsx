@@ -11,6 +11,8 @@ import Root from './Components/Root/Root.jsx';
 import ErrorPage from './Components/ErrorPage/ErrorPage.jsx';
 import Home from './Components/Home/Home.jsx';
 import Donation from './Components/Donation/Donation.jsx';
+import Statistics from './Components/Statistics/Statistics.jsx';
+import DonationDetails from './Components/DonationDetails/DonationDetails.jsx';
 
 
 const router = createBrowserRouter([
@@ -26,6 +28,15 @@ const router = createBrowserRouter([
       {
         path: '/donation',
         element: <Donation></Donation>
+      },
+      {
+        path: '/statistics',
+        element: <Statistics></Statistics>
+      },
+      {
+        path: '/donationDetails/:id',
+        loader: () => fetch('/Donation.json'),
+        element: <DonationDetails></DonationDetails>,
       }
     ]
   },

@@ -14,8 +14,7 @@ const Categories = () => {
   }, [])
 
   return (
-    <div>
-      <h2 className="text-4xl font-semibold text-center mb-2 mt-4">Category List: {categories.length}</h2>
+    <div className="mt-20">
       <div className='grid grid-cols-4 gap-4 container mx-auto my-5'>
         {
           categories.map(category => <Category key={category.id} category={category}></Category>)

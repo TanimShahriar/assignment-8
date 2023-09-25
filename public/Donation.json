@@ -2,14 +2,14 @@
   {
     "id": 1,
     "image": "https://i.ibb.co/TTVGySC/Health.png",
-    "image_detail": "https://i.ibb.co/1bCLjzm/Health-Detail.jpg",
+    "image_detail": "https://i.ibb.co/0Mn1WFn/Health-Details.jpg",
     "categori": "Health",
     "title": "Support Children's Healthcare",
     "text_color": "#0052FF",
     "card_bg": "#0052FF26",
     "donate_bg": "donate_bg_color",
     "category_bg": "#0052FF33",
-    "details": "Your donation can provide life-saving treatments, medical equipment, and emotional support to young patients and their families. Join us in making a difference in the lives of children battling illness.",
+    "details": "Your donation can provide life-saving treatments, medical equipment, and emotional support to young patients and their families.Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Join us in making a difference in the lives of children battling illness.",
     "donation_amount": 50
   },
   {
@@ -22,7 +22,7 @@
     "card_bg": "#FF444A26",
     "donate_bg": "donate_bg_color",
     "category_bg": "#FF443333",
-    "details": "Invest in the future by empowering girls to excel in science, technology, engineering, and mathematics (STEM) fields. Your support will fund STEM education programs, workshops, and mentorship opportunities.",
+    "details": "Invest in the future by empowering girls to excel in science, technology, engineering, and mathematics (STEM) fields.Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Your support will fund STEM education programs, workshops, and mentorship opportunities.",
     "donation_amount": 25
   },
   {
@@ -35,7 +35,7 @@
     "card_bg": "#79C23F26",
     "donate_bg": "donate_bg_color",
     "category_bg": "#79C23333",
-    "details": "Help those in need stay warm during the winter months. Your donation can provide coats, blankets, and clothing to individuals experiencing homelessness or hardship.",
+    "details": "Help those in need stay warm during the winter months.Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Your donation can provide coats, blankets, and clothing to individuals experiencing homelessness or hardship.",
     "donation_amount": 100
   },
   {
@@ -48,7 +48,7 @@
     "card_bg": "#F39C1226",
     "donate_bg": "donate_bg_color",
     "category_bg": "#F39C1233",
-    "details": "Join the fight against hunger by providing nutritious meals to those in need. Your contribution will support food banks and community programs, ensuring that no one goes to bed hungry.",
+    "details": "Join the fight against hunger by providing nutritious meals to those in need.Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Your contribution will support food banks and community programs, ensuring that no one goes to bed hungry.",
     "donation_amount": 75
   },
   {
@@ -61,7 +61,7 @@
     "card_bg": "#FF444A26",
     "donate_bg": "donate_bg_color",
     "category_bg": "#FF443333",
-    "details": "Bridge the digital divide and ensure access to quality education for all. Your donation can provide devices, internet access, and educational resources to underserved students.",
+    "details": "Bridge the digital divide and ensure access to quality education for all.Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Your donation can provide devices, internet access, and educational resources to underserved students.",
     "donation_amount": 30
   },
   {
@@ -74,20 +74,20 @@
     "card_bg": "#F39C1226",
     "donate_bg": "donate_bg_color",
     "category_bg": "#F39C1233",
-    "details": "Help seniors maintain their independence and health by supporting meal delivery programs. Your donation can provide nourishing meals to elderly individuals in your community.",
+    "details": "Help seniors maintain their independence and health by supporting meal delivery programs.Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Your donation can provide nourishing meals to elderly individuals in your community.",
     "donation_amount": 40
   },
   {
     "id": 7,
     "image": "https://i.ibb.co/TTVGySC/Health.png",
-    "image_detail": "https://i.ibb.co/1bCLjzm/Health-Detail.jpg",
+    "image_detail": "https://i.ibb.co/0Mn1WFn/Health-Details.jpg",
     "categori": "Health",
     "title": "Mental Health Awareness",
     "text_color": "#0052FF",
     "card_bg": "#0052FF26",
     "donate_bg": "donate_bg_color",
     "category_bg": "#0052FF33",
-    "details": "Help break the stigma surrounding mental health. Your contribution will support mental health education, awareness campaigns, and access to vital services for those in need.",
+    "details": "Help break the stigma surrounding mental health.Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Your contribution will support mental health education, awareness campaigns, and access to vital services for those in need.",
     "donation_amount": 50
   },
   {
@@ -100,20 +100,20 @@
     "card_bg": "#79C23F26",
     "donate_bg": "donate_bg_color",
     "category_bg": "#79C23333",
-    "details": "Assist job seekers in building confidence and securing employment by providing professional attire. Your contribution can help individuals make a positive impression during interviews.",
+    "details": "Assist job seekers in building confidence and securing employment by providing professional attire.Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Your contribution can help individuals make a positive impression during interviews.",
     "donation_amount": 20
   },
   {
     "id": 9,
     "image": "https://i.ibb.co/TTVGySC/Health.png",
-    "image_detail": "https://i.ibb.co/1bCLjzm/Health-Detail.jpg",
+    "image_detail": "https://i.ibb.co/0Mn1WFn/Health-Details.jpg",
     "categori": "Health",
     "title": "Crisis Helpline Support",
     "text_color": "#0052FF",
     "card_bg": "#0052FF26",
     "donate_bg": "donate_bg_color",
     "category_bg": "#0052FF33",
-    "details": "Ensure safe pregnancies and healthy babies by supporting maternal and infant care programs. Your donation can provide prenatal care, vaccinations, and neonatal care, giving newborns a strong start in life.",
+    "details": "Ensure safe pregnancies and healthy babies by supporting maternal and infant care programs.Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Your donation can provide prenatal care, vaccinations, and neonatal care, giving newborns a strong start in life.",
     "donation_amount": 60
   },
   {
@@ -126,7 +126,7 @@
     "card_bg": "#79C23F26",
     "donate_bg": "donate_bg_color",
     "category_bg": "#79C23333",
-    "details": "Support students by providing school uniforms, ensuring that every child has the opportunity to focus on their education without the burden of clothing expenses.",
+    "details": "Support students by providing school uniforms, ensuring that every child has the opportunity to focus on their education without the burden of clothing expenses.Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources.",
     "donation_amount": 35
   },
   {
@@ -139,7 +139,7 @@
     "card_bg": "#F39C1226",
     "donate_bg": "donate_bg_color",
     "category_bg": "#F39C1233",
-    "details": "Foster self-sustainability and access to fresh produce by supporting community garden initiatives. Your contribution can help communities grow their own healthy food.",
+    "details": "Foster self-sustainability and access to fresh produce by supporting community garden initiatives.Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Your contribution can help communities grow their own healthy food.",
     "donation_amount": 70
   },
   {
@@ -152,7 +152,7 @@
     "card_bg": "#FF444A26",
     "donate_bg": "donate_bg_color",
     "category_bg": "#FF443333",
-    "details": "Create opportunities for underprivileged students to pursue higher education. Your generous support will provide scholarships, textbooks, and mentorship programs, breaking down barriers to success",
+    "details": "Create opportunities for underprivileged students to pursue higher education.Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Your generous support will provide scholarships, textbooks, and mentorship programs, breaking down barriers to success",
     "donation_amount": 90
   }
 ]
