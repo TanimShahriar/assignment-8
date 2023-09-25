@@ -7,12 +7,27 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Root from './Components/Root/Root.jsx';
+import ErrorPage from './Components/ErrorPage/ErrorPage.jsx';
+import Home from './Components/Home/Home.jsx';
+import Donation from './Components/Donation/Donation.jsx';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div className='text-4xl text-center mt-4 font-bold mb-10'>Donation Campaign</div>,
+    element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
+    children: [
+      {
+        path: '/',
+        element: <Home></Home>
+      },
+      {
+        path: '/donation',
+        element: <Donation></Donation>
+      }
+    ]
   },
 ]);
 
