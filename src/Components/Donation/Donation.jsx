@@ -6,6 +6,7 @@ const Donation = () => {
 
   const donations = useLoaderData();
   const [appliedDonations, setAppliedDonations] = useState([]);
+  const [dataLength, setDataLength] = useState([4]);
 
   useEffect(() => {
 
@@ -29,7 +30,7 @@ const Donation = () => {
       <h2 className="text-center text-3xl font-medium text-purple-600 mb-4">Donation : {appliedDonations.length}</h2>
       <ul className="container mx-auto grid grid-cols-2 gap-6">
         {
-          appliedDonations.map(donation => <div className="container mx-auto mb-5" key={donation.id}>
+          appliedDonations.slice(0, dataLength).map(donation => <div className="container mx-auto mb-5" key={donation.id}>
 
 
             <div style={{ backgroundColor: donation.card_bg }} className="card card-side bg-base-100 shadow-xl">
@@ -48,8 +49,12 @@ const Donation = () => {
 
           </div>)
         }
+
       </ul>
-    </div>
+      <div className={`flex justify-center my-4 ${dataLength === appliedDonations.length && 'hidden'}`}>
+        <button onClick={() => setDataLength(appliedDonations.length)} className="px-3 py-2 bg-green-800 text-white rounded-md ">Show More</button>
+      </div>
+    </div >
   );
 };
 
