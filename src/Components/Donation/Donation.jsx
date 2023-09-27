@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import { getStoredDonation } from "../../Utility/LocalStorage";
 
 const Donation = () => {
@@ -22,7 +22,7 @@ const Donation = () => {
       setAppliedDonations(donationsApplied);
     }
 
-  }, [])
+  }, [donations])
 
 
   return (
@@ -39,9 +39,9 @@ const Donation = () => {
                 <h2 style={{ backgroundColor: donation.category_bg, color: donation.text_color }} className="card-title  w-[40%] px-3 font-medium py-1 rounded-md">{donation.categori}</h2>
                 <h2 className="card-title mb-2">{donation.title}</h2>
                 <h2 className="card-title mb-4">${donation.donation_amount}.00</h2>
-                <div className="card-actions">
+                <Link to='' className="card-actions">
                   <button style={{ backgroundColor: donation.text_color }} className="px-4 py-2  bg-purple-700 rounded-md text-white">View Details</button>
-                </div>
+                </Link>
               </div>
             </div>
 
@@ -51,11 +51,16 @@ const Donation = () => {
         }
 
       </ul>
-      <div className={`flex justify-center my-4 ${dataLength === appliedDonations.length && 'hidden'}`}>
-        <button onClick={() => setDataLength(appliedDonations.length)} className="px-3 py-2 bg-green-800 text-white rounded-md ">Show More</button>
-      </div>
+      {appliedDonations.length > 4 &&
+        <div className={`flex justify-center my-4 ${(dataLength === appliedDonations.length && appliedDonations.length > 0) && 'hidden'}`}>
+          <button onClick={() => setDataLength(appliedDonations.length)} className="px-3 py-2 bg-green-800 text-white rounded-md ">Show More</button>
+        </div>
+
+      }
     </div >
   );
 };
 
 export default Donation;
+
+

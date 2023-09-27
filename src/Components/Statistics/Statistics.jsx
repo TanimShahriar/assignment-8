@@ -1,10 +1,57 @@
+import Chart from "react-apexcharts"
+import { useLoaderData } from "react-router-dom";
+
+
 const Statistics = () => {
+  const data = useLoaderData();
+
+  const localData = localStorage.getItem('give-donation')
+  const donationParse = JSON.parse(localData);
+
+  const donationCard = (donationParse.length);
+  const totalCard = data.length;
+
+  const donatedParcentage = (donationCard / totalCard) * 100;
+
+  const totalParcentage = 100 - donatedParcentage;
+
+  console.log(totalCard, donationCard)
+
+
+
+
+
+
   return (
     <div>
-      <h2 className="text-center text-3xl font-medium text-purple-600 mb-4">Welcome, this is the Statistics section</h2>
+      <React.Fragment>
+        <div className=" container mx-auto mt-20">
 
-      <p className="text-center text-base font-md max-w-screen-lg mx-auto mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, excepturi! Recusandae quae atque placeat numquam neque natus nam qui, nemo fuga animi eius, nulla excepturi. Numquam omnis blanditiis ducimus ea?</p>
-    </div>
+          <Chart
+            type="pie"
+            width={1300}
+            height={550}
+
+            series={[donatedParcentage, totalParcentage]}
+
+
+            options={{
+
+              colors: ["#00C49F", "#FF444A"],
+
+              labels: ["Your Donation", "Total Donation"]
+            }}
+
+          >
+
+
+
+          </Chart>
+
+
+        </div>
+      </React.Fragment >
+    </div >
   );
 };
 
